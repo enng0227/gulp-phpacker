@@ -1,4 +1,4 @@
-# enng-phpacker
+# gulp-phpacker
 
 > gulp plugin for PHP bundling
 
