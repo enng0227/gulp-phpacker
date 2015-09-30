@@ -10,7 +10,7 @@ This plugin requires gulp
 
 ```js
 gulp.task( 'php', function () {
-  var enngPhpacker = require( 'enng-phpacker' );
+  var Phpacker = require( 'gulp-phpacker' );
   var Src = './app/**/*.php',
     Dst = './dist/php/';
   var _opt = {
@@ -18,7 +18,7 @@ gulp.task( 'php', function () {
     "banner": [ 'this is a test...', '这是第二行' ]
   };
   gulp.src( Src ) //指定源
-    .pipe( enngPhpacker( _opt ) )
+    .pipe( Phpacker( _opt ) )
     .pipe( gulp.dest( Dst ) ); //输出
 } );
 ```
