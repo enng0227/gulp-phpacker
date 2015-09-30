@@ -1,0 +1,22 @@
+{
+	"name": "gulp-phpacker",
+	"version": "0.0.1",
+	"description": "phpacker",
+	"main": "./index.js",
+	"dependencies": {
+		"gulp-util": "*",
+		"through2": "*",
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [
+    "gulp-phpacker"
+  ],
+	"author": "enng",
+	"license": "ISC"
+}
